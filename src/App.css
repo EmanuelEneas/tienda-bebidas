@@ -1,0 +1,156 @@
+/* Estilo general */
+body {
+  font-family: 'Roboto', sans-serif;
+  background:  url("./imagenes/b3.jpg");
+
+ /* Imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #00f7ff;
+  text-shadow: 2px 2px 10px rgba(0, 247, 255, 0.6);
+  margin-top: 20px;
+}
+
+/* Carrito en la parte superior derecha */
+.carrito {
+  position: fixed;
+  top: 20px;
+  right: 20px; 
+  background-color: rgba(0, 247, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 247, 255, 0.3);
+  z-index: 100;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.carrito h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00f7ff;
+}
+
+.carrito ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carrito li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #00f7ff;
+}
+
+.carrito li:last-child {
+  border-bottom: none;
+}
+
+.carrito input {
+  width: 50px;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #00f7ff;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.carrito button {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.carrito button:hover {
+  transform: scale(1.1);
+}
+
+.carrito h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #00f7ff;
+}
+
+/* Estilo de las bebidas (más grandes y en columnas) */
+.lista-bebidas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Hice las imágenes más grandes */
+  gap: 30px;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: rgba(0, 247, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 247, 255, 0.2);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Hice las imágenes más grandes */
+  object-fit: cover;
+  border-radius: 20px; /* Bordes redondeados más pronunciados */
+  box-shadow: 0 4px 15px rgba(0, 247, 255, 0.4); /* Añadí sombra para dar profundidad */
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05); /* Efecto de zoom cuando se pasa el ratón */
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Botones futuristas */
+button {
+  background-color: #00f7ff;
+  color: #333;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 247, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 247, 255, 0.4);
+}

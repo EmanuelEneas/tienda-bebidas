@@ -1,0 +1,93 @@
+{
+  "bebidas": [
+    {
+      "id": 1,
+      "nombre": "Cerveza Lager",
+      "descripcion": "Cerveza rubia, refrescante y suave.",
+      "precio": 250,
+      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%26ac3683ca8b406d265fcb8aec98fe813e_1024_1024.webp",
+      "oferta": false
+    },
+    {
+      "id": 2,
+      "nombre": "Vino Tinto Malbec",
+      "descripcion": "Vino tinto con notas de frutas rojas.",
+      "precio": 800,
+      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%26853658562de0239636b17cc4863d55ee_1024_1024.webp",
+      "oferta": true
+    },
+    {
+      "id": 3,
+      "nombre": "Vodka Premium",
+      "descripcion": "Vodka de alta pureza.",
+      "precio": 1200,
+      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%265b6393e8da41770b45eb18ec9e08e4f0_1024_1024.webp",
+      "oferta": false
+    },
+    {
+      "id": 4,
+      "nombre": "Whisky chivas",
+      "descripcion": "Whisky añejo con sabor intenso.",
+      "precio": 1500,
+      "imagen": "https://media.gettyimages.com/id/157774222/es/foto/botella-de-doce-a%C3%B1os-whisky-escoc%C3%A9s-chivas-regal.jpg?s=612x612&w=gi&k=20&c=0fZwJtMPxpIQt7TOti61Qd8Ma3Nr9QKUtrldfG9yjbw=",
+      "oferta": true
+    },
+    {
+      "id": 5,
+      "nombre": "Ginebra London Dry",
+      "descripcion": "Ginebra clásica con aroma a enebro.",
+      "precio": 900,
+      "imagen": "https://media.gettyimages.com/id/493860417/es/foto/cocktail.jpg?s=612x612&w=0&k=20&c=8GRtAn8Pcck0U3CeyBqkx1vtWErX2EwCF-v3lOSuizs=",
+      "oferta": false
+    },
+    {
+      "id": 6,
+      "nombre": "Tequila Blanco",
+      "descripcion": "Tequila puro y transparente, ideal para cocteles.",
+      "precio": 1000,
+      "imagen": "https://media.gettyimages.com/id/1469940814/es/foto/three-margarita-cocktails-creatively-prepared-on-the-bar-counter.jpg?s=612x612&w=0&k=20&c=d4cKOeE6iLdDFePgI9_4zTTPqDc3s223nBXFI6bNWDE=",
+      "oferta": false
+    },
+    {
+      "id": 7,
+      "nombre": "Ron Añejo",
+      "descripcion": "Ron con sabor a caramelo y madera.",
+      "precio": 850,
+      "imagen": "https://media.gettyimages.com/id/1134692679/es/foto/barman-pouring-whiskey-in-front-of-whiskey-glass-and-bottles-on-black-table-with-whiskey-and.jpg?s=612x612&w=0&k=20&c=2_v-EzSHSnnvAFsTa16O8kPRPPYd6pv8bzRDafp5eJY=",
+      "oferta": true
+    },
+    {
+      "id": 8,
+      "nombre": "Champagne Brut",
+      "descripcion": "Espumante seco, perfecto para celebraciones.",
+      "precio": 2000,
+      "imagen": "https://media.gettyimages.com/id/893127568/es/foto/portland-me-two-varieties-of-victorieux-champagne-millesime-left-and-brut-rose.jpg?s=612x612&w=gi&k=20&c=Up77PZZcrVL1ockNIb8BF46LvwxmRN14OORCy538OzM=",
+      "oferta": false
+    },
+    {
+      "id": 9,
+      "nombre": "Margarita Clásica",
+      "descripcion": "Coctel de tequila y limón, refrescante.",
+      "precio": 750,
+      "imagen": "https://media.gettyimages.com/id/1673183240/es/foto/dos-copas-de-c%C3%B3ctel-de-margarita-con-una-lima-a-un-lado.jpg?s=612x612&w=0&k=20&c=OwUjjGbDEz_h_IHQpMTAO5O8KqksCuizyMgQ-CcRNzo=",
+      "oferta": true
+    },
+   
+    {
+      "id": 11,
+      "nombre": "Sidra Artesanal",
+      "descripcion": "Sidra fermentada con un toque dulce.",
+      "precio": 500,
+      "imagen": "https://media.gettyimages.com/id/2163273332/es/foto/close-up-of-beer-glasses-on-table-united-states-usa.jpg?s=612x612&w=0&k=20&c=BhFS3utrkSx2LsbL05XR7LA37anMDWbkBt1slXeKsPE=",
+      "oferta": true
+    },
+    {
+      "id": 12,
+      "nombre": "Cerveza IPA",
+      "descripcion": "Cerveza con amargor y aroma a lúpulo.",
+      "precio": 300,
+      "imagen": "https://media.gettyimages.com/id/1184071484/es/foto/new-belgium-brewing-companys-voodoo-ranger-ipa-beer-can-be-seen-at-a-store-in-mountain-view.jpg?s=612x612&w=gi&k=20&c=ytKNfzc_mSAXdRWMFiMFkV3kB7OYPap6QqtM5Pr6_pM=",
+      "oferta": false
+    }
+  ]
+}

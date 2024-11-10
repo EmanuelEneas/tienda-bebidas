@@ -1,0 +1,75 @@
+/* Estilo del contenedor principal del formulario */
+.formulario-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(0, 247, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 247, 255, 0.2);
+    text-align: center;
+  }
+  
+  .formulario-title {
+    font-size: 2.2rem;
+    color: #00f7ff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px rgba(0, 247, 255, 0.6);
+  }
+  
+  /* Estilo del formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Estilo de las etiquetas y campos de entrada */
+  .form-label {
+    font-size: 1.1rem;
+    color: #00f7ff;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #00f7ff;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #ff4081;
+    box-shadow: 0 0 10px rgba(255, 64, 129, 0.5);
+  }
+  
+  /* Estilo del botón de envío */
+  .form-button {
+    background-color: #00f7ff;
+    color: #333;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #ff4081;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  .form-button:focus {
+    outline: none;
+  }
+  
