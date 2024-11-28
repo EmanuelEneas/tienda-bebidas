@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Proyecto: Bebidas Ema Cáceres
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web de gestión de pedidos de bebidas, desarrollada en React. Permite a los usuarios agregar bebidas a un carrito de compras, ver las ofertas disponibles y gestionar su pedido en tiempo real.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+La aplicación permite a los usuarios realizar pedidos de bebidas, con las siguientes funcionalidades principales:
 
-### `npm start`
+- **Ver las Ofertas:** Se muestran bebidas en oferta que los usuarios pueden seleccionar.
+- **Lista de Bebidas:** Los usuarios pueden ver todas las bebidas disponibles y agregarlas al carrito.
+- **Carrito de Compras:** Se actualiza en tiempo real con las bebidas seleccionadas y su cantidad.
+- **Formulario de Pedido:** Los usuarios pueden ver los detalles de su pedido y proceder con la compra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Los usuarios pueden agregar una bebida al carrito, y si la bebida ya está en el carrito, se actualiza su cantidad.
+- El carrito de compras muestra la lista de bebidas y permite agregar o eliminar bebidas.
+- La cantidad de cada bebida en el carrito se actualiza dinámicamente.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-### `npm run build`
+1. **Clona el repositorio**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/tu_usuario/nombre-del-repositorio.git
+   cd nombre-del-repositorio
+Instala las dependencias:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Asegúrate de tener Node.js y npm instalados. Luego, ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copiar código
+npm install
+Inicia la aplicación:
 
-### `npm run eject`
+Para ejecutar el servidor de desarrollo, usa:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copiar código
+npm start
+Esto abrirá la aplicación en tu navegador en http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Uso
+Agregar bebidas al carrito: Los usuarios pueden seleccionar bebidas desde la lista o desde las ofertas. Si una bebida ya está en el carrito, la cantidad se incrementa automáticamente.
+Ver el carrito: El carrito de compras se muestra en tiempo real con las bebidas seleccionadas y su cantidad.
+Formulario de Pedido: El usuario puede ver el resumen del pedido antes de confirmarlo.
+Estructura del Proyecto
+La aplicación está construida con React y tiene la siguiente estructura principal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ofertas.js: Componente que muestra las bebidas en oferta.
+ListaBebidas.js: Componente que muestra la lista de bebidas disponibles.
+Carrito.js: Componente que muestra el carrito de compras.
+FormularioPedido.js: Componente que muestra el formulario para finalizar el pedido.
+App.js: Componente principal que integra todos los componentes y maneja el estado del pedido.
+Tecnologías utilizadas
+React: Biblioteca de JavaScript para construir interfaces de usuario.
+useState: Hook de React para manejar el estado local de las bebidas en el carrito.
+Contribución
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Haz un fork del repositorio.
+Crea una rama para tu característica (git checkout -b feature-nueva).
+Haz tus cambios y asegúrate de que todo funcione correctamente.
+Realiza un commit de tus cambios (git commit -am 'Añadir nueva característica').
+Haz un push a tu rama (git push origin feature-nueva).
+Crea un pull request para que tus cambios sean revisados.
