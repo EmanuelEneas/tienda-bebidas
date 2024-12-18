@@ -1,7 +1,8 @@
-// src/components/Carrito.js
 import React from 'react';
+import SumaTotal from './SumaTotal';
 
 function Carrito({ pedido, setPedido }) {
+
   const handleEliminar = (id) => {
     setPedido(pedido.filter((bebida) => bebida.id !== id));
   };
@@ -14,11 +15,19 @@ function Carrito({ pedido, setPedido }) {
     );
   };
 
-  const total = pedido.reduce((acc, bebida) => acc + bebida.precio * (bebida.cantidad || 1), 0);
+  const handleFinalizarCompra = () => {
+    // Aquí deberías integrar MercadoPago
+    const total = pedido.reduce((acc, bebida) => acc + bebida.precio * (bebida.cantidad || 1), 0);
+    alert(`Tu compra total es de $${total}. Redirigiendo a MercadoPago...`);
+
+    // Simulación de la integración con MercadoPago
+    window.location.href = `https://link.mercadopago.com.ar/emacaceres25`;
+  };
 
   return (
     <div className="carrito">
       <h2>Carrito de Compras</h2>
+
       {pedido.length === 0 ? (
         <p>El carrito está vacío.</p>
       ) : (
@@ -30,14 +39,19 @@ function Carrito({ pedido, setPedido }) {
                 type="number"
                 min="1"
                 value={bebida.cantidad || 1}
-                onChange={(e) => handleModificarCantidad(bebida.id, parseInt(e.target.value))}
+                onChange={(e) =>
+                  handleModificarCantidad(bebida.id, parseInt(e.target.value))
+                }
               />
               <button onClick={() => handleEliminar(bebida.id)}>Eliminar</button>
             </li>
           ))}
         </ul>
       )}
-      <h3>Total: ${total}</h3>
+
+      <SumaTotal pedido={pedido} />
+
+      <button onClick={handleFinalizarCompra}>Finalizar Compra</button>
     </div>
   );
 }

@@ -5,7 +5,7 @@
       "nombre": "Cerveza Lager",
       "descripcion": "Cerveza rubia, refrescante y suave.",
       "precio": 250,
-      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%26ac3683ca8b406d265fcb8aec98fe813e_1024_1024.webp",
+      "imagen": "https://media.gettyimages.com/id/1204042311/es/foto/amber-ale.jpg?s=612x612&w=gi&k=20&c=avuud0aKCYdeI08O90s5DpvSJ1qjZZ0N8TVR_sJbB3o=",
       "oferta": false
     },
     {
@@ -13,7 +13,7 @@
       "nombre": "Vino Tinto Malbec",
       "descripcion": "Vino tinto con notas de frutas rojas.",
       "precio": 800,
-      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%26853658562de0239636b17cc4863d55ee_1024_1024.webp",
+      "imagen": "https://media.gettyimages.com/id/1297401631/es/foto/copa-de-vino-tinto-y-botella-copiar-espacio.jpg?s=612x612&w=gi&k=20&c=LXzwHpYIICfAIv1vSDFUFwMyLUlQoFLx_8tL0hwrG_E=",
       "oferta": true
     },
     {
@@ -21,7 +21,7 @@
       "nombre": "Vodka Premium",
       "descripcion": "Vodka de alta pureza.",
       "precio": 1200,
-      "imagen": "https://img.pica-ai.com/image/aigc/alg%26faceswap%26p%265b6393e8da41770b45eb18ec9e08e4f0_1024_1024.webp",
+      "imagen": "https://media.gettyimages.com/id/458308247/es/foto/absolut-vodka-sobre-fondo-blanco.jpg?s=612x612&w=gi&k=20&c=wDnBU6JMKzE1WOtrtjOW1TzGgWddh-d76lmjUnOKmuA=",
       "oferta": false
     },
     {
